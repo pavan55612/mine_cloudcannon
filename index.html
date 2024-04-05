@@ -151,7 +151,7 @@
     script.src = `/_cloudcannon/bookshop-live.js`;
     script.onload = function() {
       window.bookshopLive = new window.BookshopLive({
-        remoteGlobals: ['/_cloudcannon/bookshop-site-data.json']
+        remoteGlobals: ['/_cloudcannon/initial-site-settings.json']
       });
       const updateBookshopLive = async () => {
         const frontMatter = await CloudCannon.value();
