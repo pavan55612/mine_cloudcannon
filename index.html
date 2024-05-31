@@ -115,7 +115,7 @@
         Bookshop components are accessed using the bookshop tag, 
         using the same syntax as the standard Jekyll include tag.
     -->
-    {% bookshop_include page content_blocks=page.content_blocks page_theme=page.page_theme %}
+    <!-- {% bookshop_include page content_blocks=page.content_blocks page_theme=page.page_theme %} -->
 
     <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
 
@@ -125,7 +125,28 @@
     <div class="row">
       <div class="col col-12">
 
-        {% bookshop_include social-link %}
+        <div class="social">
+          <ul class="social__list list-reset">
+                      
+            <li class="social__item">
+              <a class="social__link" href="https://vk.com/miagika" target="_blank" rel="noopener" aria-label="vk icon"><i><img src="/mine_cloudcannon/uploads/icon/icon-vk.png"></i></a>
+            </li>
+        
+            <li class="social__item">
+              <a class="social__link" href="https://t.me/miagika" target="_blank" rel="noopener" aria-label="telegram icon"><i><img src="/mine_cloudcannon/uploads/icon/icon-telegram.png"></i></a>
+            </li>
+
+            <li class="social__item">
+              <a class="social__link" href="https://wa.me/79679200743" target="_blank" rel="noopener" aria-label="whatsapp icon"><i><img src="/mine_cloudcannon/uploads/icon/icon-whatsapp.png"></i></a>
+            </li>
+
+            <li class="social__item">
+              <a class="social__link" href="viber://add?number=79679200743" target="_blank" rel="noopener" aria-label="viber icon"><i><img src="/mine_cloudcannon/uploads/icon/icon-viber.png"></i></a>
+            </li>
+            
+          </ul>
+
+        <!-- {% bookshop_include social-link %} -->
 <!--         social:
   - icon: VK
     link: https://vk.com/miagika
@@ -137,15 +158,15 @@
     link: viber://add?number=79679200743
 -->
 
-        <ul class="footer_nav list-reset">
+        <!-- <ul class="footer_nav list-reset">
           {% for item in site.data.footer.footer_menu__settings.menu__items %}
           <li class="footer_nav__item">
             <a href="{{ item.url | relative_url }}" class="footer_nav__link">{{ item.title }}</a>
           </li>
           {% endfor %}
-        </ul>
+        </ul> -->
 
-        <div class="copyright">{{ site.data.footer.copyright_text_html }}</div>
+        <div class="copyright">business card</div>
 
       </div>
     </div>
