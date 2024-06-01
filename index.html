@@ -84,15 +84,22 @@
 
           <div class="social">
             <ul class="social__list list-reset">
-                           
+              
               <li class="social__item">
-                <a class="social__link" href="https://t.me/miagika" target="_blank" rel="noopener" aria-label="telegram icon"><i><img src="/mine_cloudcannon/uploads/icon/icon-telegram.png"></i></a>
-              </li>
-          
-              <li class="social__item">
-                <a class="social__link" href="https://wa.me/79679200743" target="_blank" rel="noopener" aria-label="whatsapp icon"><i><img src="/mine_cloudcannon/uploads/icon/icon-whatsapp.png"></i></a>
+                <a class="social__link" href="https://vk.com/miagika" target="_blank" rel="noopener" aria-label="vk icon"><i class="ion ion-logo-vk"></i></a>
               </li>
               
+              <li class="social__item">
+                <a class="social__link" href="https://t.me/miagika" target="_blank" rel="noopener" aria-label="telegram icon"><i class="ion ion-logo-telegram"></i></a>
+              </li>
+              
+              <li class="social__item">
+                <a class="social__link" href="https://wa.me/79679200743" target="_blank" rel="noopener" aria-label="whatsapp icon"><i class="ion ion-logo-whatsapp"></i></a>
+              </li>
+              
+              <li class="social__item">
+                <a class="social__link" href="viber://add?number=79679200743" target="_blank" rel="noopener" aria-label="viber icon"><i class="ion ion-logo-viber"></i></a>
+              </li>
               
             </ul>
           </div>
@@ -114,8 +121,8 @@
         Bookshop components are accessed using the bookshop tag, 
         using the same syntax as the standard Jekyll include tag.
     -->
-    <!-- {% bookshop_include page content_blocks=page.content_blocks page_theme=page.page_theme %} -->
-
+    <!--bookshop-live name(page.jekyll.html) params(content_blocks=page.content_blocks page_theme=page.page_theme) context() -->
+          
     <div class="c-page">
 
 
@@ -130,23 +137,18 @@
   
             <div class="c-hero__left">
               <h1 class="c-hero__title">Мяги Кирилл Александрович</h1>
-              <div class="c-hero__description">
-                <p><strong>Заместитель главного врача</strong>по части
-                  информационных технологий в Государственном бюджетном учреждении
-                  здравоохранения "<strong>Самарский областной клинический кардиологический
-                  диспансер им. В.П. Полякова</strong>"</p>
-              </div>
+              <div class="c-hero__description"><p><strong>Заместитель главного врача</strong>&nbsp;по части информационных технологий в Государственном бюджетном учреждении здравоохранения "<strong>Самарский областной клинический кардиологический диспансер им. В.П. Полякова</strong>"</p></div>
               <div class="c-hero__btn">
-                <a href="/mine_cloudcannon/contacts" class="cta-button c-button c-button--primary c-button--small">Контакты</a>
-                <a class="works-button c-button c-button--secondary c-button--small" href="/#projects">
-                  <span class="circle-bg"><i class="ion ion-md-arrow-down button-arrow"></i></span> Карьера
+                <a href="#contact" class="cta-button c-button c-button--primary c-button--small">Get in touch</a>
+                <a class="works-button c-button c-button--secondary c-button--small" href="#projects">
+                  <span class="circle-bg"><i class="ion ion-md-arrow-down button-arrow"></i></span> See my works
                 </a>
               </div>
             </div>
   
             <div class="c-hero__right">
               <div class="c-hero__image">
-                <img loading="lazy" src="/mine_cloudcannon/uploads/iam.jpg" alt="">
+                <img loading="lazy" src="/mine_cloudcannon/uploads/iam2.jpg" alt="">
               </div>
             </div>
   
@@ -158,128 +160,159 @@
   <!-- end hero -->
             <!--bookshop-live end-->
   
-      <!--bookshop-live name(projects-section/projects-section.jekyll.html) params(bind=block) context(block=content_blocks[1]) -->
-            <!-- begin projects -->
-  <section class="section projects" id="projects">
+      <!--bookshop-live name(testimonials-section/testimonials-section.jekyll.html) params(bind=block) context(block=content_blocks[1]) -->
+            <!-- begin testimonials -->
+  <section class="section testimonials animate">
     <div class="container">
       <div class="row">
         <div class="col col-12">
-          <div class="contaniner__inner animate">
   
-            <div class="section__info">
-              <div class="section__head">
-                <h2 class="section__title">Карьера</h2>
-              </div>
-              <div class="section__description"><p> </p></div>
+          <div class="section__info">
+            <div class="section__head">
+              <h2 class="section__title">Карьера</h2>
+              <ul class="controls list-reset" id="customize-controls" aria-label="Slider Navigation" tabindex="0">
+                <li class="prev" data-controls="prev" aria-controls="customize" tabindex="-1">
+                  <i class="ion ion-ios-arrow-back"></i>
+                </li>
+                <li class="next" data-controls="next" aria-controls="customize" tabindex="-1">
+                  <i class="ion ion-ios-arrow-forward"></i>
+                </li>
+              </ul>
             </div>
-
-            <div class="row">
-                  <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[0]) -->
-            
-  <article class="c-project-card col col-4 col-d-6 col-t-12">
-    <div class="c-project-card__content">
-      <a href="#" class="c-project-card__image">
-        <img loading="lazy" src="/mine_cloudcannon/uploads/miac.png" alt="MIAC">
-      </a>
-      <div class="c-project-card__info">
-        <div class="c-project-card__info-wrap">
-          <h3 class="c-project-card__title">ГБУЗ "Самарский областной медицинский информационно-аналитический центр"</h3>
-        </div>
-        <div class="c-project-card__info-wrap">
-          
-          <div class="c-project-card__subtitle">Специалист отдела защиты информации</div>
-          <div class="c-project-card__subtitle">Сентябрь 2020 - Февраль 2021</div>         
-        </div>
-      </div>
-    </div>
-  </article
-            <!--bookshop-live end-->
-               
-             <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[1]) -->
-            
-  <article class="c-project-card col col-4 col-d-6 col-t-12">
-    <div class="c-project-card__content">
-      <a href="#" class="c-project-card__image">
-        <img loading="lazy" src="/mine_cloudcannon/uploads/sf.png" alt="SF">
-      </a>
-      <div class="c-project-card__info">
-        <div class="c-project-card__info-wrap">
-          <h3 class="c-project-card__title">ГКУ СО "Самарафармация"</h3>
-        </div>
-        <div class="c-project-card__info-wrap">
-          
-          <div class="c-project-card__subtitle">Инженер по защите информации</div>
-          <div class="c-project-card__subtitle">Февраль 2021 - Октябрь 2021</div>
-
-          
-        </div>
-      </div>
-    </div>
-  </article>
-            <!--bookshop-live end-->
-            
-                  <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[2]) -->
-            
-                  <article class="c-project-card col col-4 col-d-6 col-t-12">
-                    <div class="c-project-card__content">
-                      <a href="#" class="c-project-card__image">
-                        <img loading="lazy" src="/mine_cloudcannon/uploads/miac.png" alt="MIAC">
-                      </a>
-                      <div class="c-project-card__info">
-                        <div class="c-project-card__info-wrap">
-                          <h3 class="c-project-card__title">ГБУЗ "Самарский областной медицинский информационно-аналитический центр"</h3>
-                        </div>
-                        <div class="c-project-card__info-wrap">
-                          
-                          <div class="c-project-card__subtitle">Начальник отдела защиты информации</div>
-                          <div class="c-project-card__subtitle">Октябрь 2021 - Январь 2023</div>         
-                        </div>
-                      </div>
-                    </div>
-                  </article
-                            <!--bookshop-live end-->
-
-                  <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[0]) -->
-            
-                  
-  <article class="c-project-card col col-4 col-d-6 col-t-12">
-    <div class="c-project-card__content">
-      <a href="#" class="c-project-card__image">
-        <img loading="lazy" src="/mine_cloudcannon/uploads/cardio.png" alt="Cardio">
-      </a>
-      <div class="c-project-card__info">
-        <div class="c-project-card__info-wrap">
-          <h3 class="c-project-card__title">ГБУЗ "Самарский областной клинический кардиологический диспансер им. В.П. Полякова"</h3>
-        </div>
-        <div class="c-project-card__info-wrap">
-          <div class="c-project-card__subtitle">Заместитель главного врача по информационным технологиям</div>
-          <div class="c-project-card__subtitle">Май 2023 - по н.в.</div>
-
-        </div>
-      </div>
-    </div>
-  </article>
-            <!--bookshop-live end-->
-                
-                  <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[3]) -->
-     
-            </div>
-            
-  
+            <div class="section__description"></div>
           </div>
+  
+          
+          <div class="testimonials__slider my-slider">
+            
+              <!--bookshop-live name(testimonial-card/testimonial-card.jekyll.html) params(testimonial-item=testimonial-item) context(testimonial=item=site.testimonials[0]) -->
+            
+  <div class="c-testimonial-card">
+    <div class="c-testimonial-card__content">
+      <div class="c-testimonial-card__client-meta">
+        
+          <div class="c-testimonial-card__image-container">
+            <img class="c-testimonial-card__client-avatar" src="/mine_cloudcannon/uploads/cardio.png" alt="ГБУЗ "Самарский областной клинический кардиологический диспансер им. В.П. Полякова"">
+          </div>
+        
+        <div class="c-testimonial-card__client-info">
+          
+            <h3 class="c-testimonial-card__client-name">ГБУЗ "Самарский областной клинический кардиологический диспансер им. В.П. Полякова"</h3>
+          
+          
+            <p class="c-testimonial-card__client-position">Заместитель главного врача по информационным технологиям</p>
+          
+        </div>
+      </div>
+      
+        <p class="c-testimonial-card__client-text">Май 2023 - по н.в.</p>
+      
+    </div>
+  </div>
+            <!--bookshop-live end-->
+            
+              <!--bookshop-live name(testimonial-card/testimonial-card.jekyll.html) params(testimonial-item=testimonial-item) context(testimonial=item=site.testimonials[1]) -->
+            
+  <div class="c-testimonial-card">
+    <div class="c-testimonial-card__content">
+      <div class="c-testimonial-card__client-meta">
+        
+          <div class="c-testimonial-card__image-container">
+            <img class="c-testimonial-card__client-avatar" src="/mine_cloudcannon/uploads/miac.png" alt="ГБУЗ "Самарский областной медицинский информационно-аналитический центр"">
+          </div>
+        
+        <div class="c-testimonial-card__client-info">
+          
+            <h3 class="c-testimonial-card__client-name">ГБУЗ "Самарский областной медицинский информационно-аналитический центр"</h3>
+          
+          
+            <p class="c-testimonial-card__client-position">Начальник отдела защиты информации</p>
+          
+        </div>
+      </div>
+      
+        <p class="c-testimonial-card__client-text">Октябрь 2021 - Январь 2023</p>
+      
+    </div>
+  </div>
+            <!--bookshop-live end-->
+            
+              <!--bookshop-live name(testimonial-card/testimonial-card.jekyll.html) params(testimonial-item=testimonial-item) context(testimonial=item=site.testimonials[2]) -->
+            
+  <div class="c-testimonial-card">
+    <div class="c-testimonial-card__content">
+      <div class="c-testimonial-card__client-meta">
+        
+          <div class="c-testimonial-card__image-container">
+            <img class="c-testimonial-card__client-avatar" src="/mine_cloudcannon/uploads/sf.png" alt="ГКУ СО "Самарафармация"">
+          </div>
+        
+        <div class="c-testimonial-card__client-info">
+          
+            <h3 class="c-testimonial-card__client-name">ГКУ СО "Самарафармация"</h3>
+          
+          
+            <p class="c-testimonial-card__client-position">Инженер по защите информации</p>
+          
+        </div>
+      </div>
+      
+        <p class="c-testimonial-card__client-text">Февраль 2021 - Октябрь 2021</p>
+      
+    </div>
+  </div>
+            <!--bookshop-live end-->
+            
+              <!--bookshop-live name(testimonial-card/testimonial-card.jekyll.html) params(testimonial-item=testimonial-item) context(testimonial=item=site.testimonials[3]) -->
+            
+  <div class="c-testimonial-card">
+    <div class="c-testimonial-card__content">
+      <div class="c-testimonial-card__client-meta">
+        
+          <div class="c-testimonial-card__image-container">
+            <img class="c-testimonial-card__client-avatar" src="/mine_cloudcannon/uploads/miac.png" alt="ГБУЗ "Самарский областной медицинский информационно-аналитический центр"">
+          </div>
+        
+        <div class="c-testimonial-card__client-info">
+          
+            <h3 class="c-testimonial-card__client-name">ГБУЗ "Самарский областной медицинский информационно-аналитический центр"</h3>
+          
+          
+            <p class="c-testimonial-card__client-position">Специалист отдела защиты информации</p>
+          
+        </div>
+      </div>
+      
+        <p class="c-testimonial-card__client-text">Сентябрь 2020 - Февраль 2021</p>
+      
+    </div>
+  </div>
+            <!--bookshop-live end-->
+            
+          </div>
+          
+  
         </div>
       </div>
     </div>
   </section>
-  <!-- end projects -->
+  <!-- end testimonials -->
+            <!--bookshop-live end-->
+  
+      <!--bookshop-live name(content/content.jekyll.html) params(bind=block) context(block=content_blocks[2]) -->
+            <div class="container">
+    <div class="page animate">
+      <h1><strong><font><font>Образование</font></font></strong></h1><ul><li><font><font>​​​​​​​Компьютерная безопасность (специалитет), математический факультет, Федеральное государственное автономное образовательное учреждение высшего образования "Самарский национальный исследовательский университет имени академика С.П. Королева", 2015 - 2021</font></font>​​​​​​​</li><li>Телемедицина и системы принятия врачебных решений (магистратура), информатика и вычислительная техника, передовая медицинская инженерная школа СамГМУ, Федеральное государсвенное бюджетное образовательное учреждение высшего образования "Самарский государственный медицинский университет", 2023 - 2025</li><li>Государсвенное и муниципальное управление (бакалавриат), АУП, БИОР, 2023 - 2026</li></ul>
+    </div>
+  </div>
             <!--bookshop-live end-->
   
   
   </div>
   
             <!--bookshop-live end-->
-
-    <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
+  
+      <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
 
 <!-- begin footer -->
 <footer class="footer">
